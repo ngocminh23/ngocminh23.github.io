@@ -1,0 +1,113 @@
+* {
+	box-sizing: border-box;
+}
+
+.right {
+	float: right !important;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	line-height: 56px;
+}
+
+ul li.active, ul li:hover {
+	background: #008c9e;
+}
+
+ul li {
+	transition: background-color .3s;
+	float: left;
+	padding: 0;
+}
+
+ul li {
+	list-style-type: none;
+}
+
+ul.parent-menu>li.active a, ul.parent-menu>li:hover>a {
+	color: #fff;
+}
+
+
+ul a {
+	transition: background-color .3s;
+	font-size: 700;
+	color: #000;
+	display: block;
+	padding: 0 15px;
+	cursor: pointer;
+}
+
+a {
+	text-decoration: none;
+	font-family: "Roboto", sans-serif;
+}
+
+#logo {
+	width: 30%;
+	float:left;
+}
+
+#menu {
+	width: 70%;
+	float: left;
+}
+
+#navigation {
+	margin: 0px 200px;
+	background-color: white;
+	height: 80px;
+	padding: 10px 20px;
+}
+
+#content {
+	margin: 20px 200px;
+	background-color: white;
+	padding: 10px 20px;
+	display: inline-block;
+}
+
+body {
+	background-color: beige;
+}
+
+.img {
+	width: calc(33.33% - 15px);
+	float: left;
+	margin-right: 15px;
+	overflow: hidden;
+}
+
+.img:last-child {
+	margin-right: 0px;
+}
+
+.img:hover img {
+	transition: opacity .5s ease;
+	transform: scale(1.1);
+}
+
+.img img {
+	width: 100%;
+}
+
+#content h1 {
+	text-align: center;
+}
+
+#content h2 {
+	text-align: center;
+	margin: 20px 0px;
+}
+
+.img:hover h2 {
+	color: blue;
+}
+
+.hang {
+	margin-bottom: 20px;
+	display: inline-block;
+}
