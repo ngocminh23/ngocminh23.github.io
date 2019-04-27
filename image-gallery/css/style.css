@@ -86,7 +86,7 @@ body {
 }
 
 .img:hover img {
-	transition: opacity .5s ease;
+	transition-duration: 1s;
 	transform: scale(1.1);
 }
 
