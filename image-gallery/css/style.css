@@ -85,13 +85,14 @@ body {
 	margin-right: 0px;
 }
 
-.img:hover img {
-	transition-duration: 1s;
+.img:hover img {	
 	transform: scale(1.1);
 }
 
 .img img {
+	transition-duration: 1s;
 	width: 100%;
+	display: block;
 }
 
 #content h1 {
@@ -110,4 +111,8 @@ body {
 .hang {
 	margin-bottom: 20px;
 	display: inline-block;
+}
+
+.image {
+	overflow: hidden;
 }
