@@ -1,0 +1,19 @@
+.heart {
+    width: 200px;
+    height: 200px;
+    top: 100px;
+    left: 100px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    animation: heart 1s ease infinite
+}
+
+@keyframes heart {
+    96% {
+        transform: translate(-50%,-50%) scale(.8,.8)
+    }
+
+    100% {
+        transform: translate(-50%,-50%) scale(1,1)
+    }
+}
