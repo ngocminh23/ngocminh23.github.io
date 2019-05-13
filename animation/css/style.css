@@ -17,7 +17,9 @@ h1 {
 .made {
 	width: 600px;
 	margin: auto;
-    position: relative;
+	height: 60px;
+	position: relative;
+	overflow: hidden;
 	
 }
 p {
