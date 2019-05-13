@@ -1,0 +1,71 @@
+.container {
+	height: 41px;
+	background: #ddd;
+}
+
+#nav {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+ul li {
+	list-style-type: none;
+	background-color: #ddd;
+}
+
+ul.menu > li {
+	float: left;
+}
+
+ul.menu > li:hover {
+	background-color: #fff;
+}
+
+ul li a {
+	padding: 10px;
+	display: block;
+	text-decoration: none;
+	font-family: "Roboto","segoe ui",Helvetica,Arial,sans-serif;
+	color: black;
+}
+
+ul li a:hover {
+	color: #721799;
+}
+
+ul {
+	padding: 0;
+}
+
+ul.menu ul {
+	display: none;
+}
+
+ul.menu > li > ul {
+	position: absolute;
+	box-shadow: 0 0 5px 0 grey;
+}
+
+ul.menu ul li {
+	background-color: #fff;
+}
+
+ul.menu > li:hover ul, ul.menu > li:hover .megamenu {
+	display: block;
+}
+
+.megamenu {
+	position: absolute;
+	display: none;
+	box-shadow: 0 0 5px 0 grey;
+}
+
+.megamenu:hover {
+	display: block;
+}
+
+.subcol {
+	float: left;
+	margin: 5px 10px;
+}
+

@@ -1,0 +1,33 @@
+h1 {
+	animation:fading 10s infinite;
+}
+
+@keyframes fading{
+	0%{opacity:0}
+	50%{opacity:1}
+	100%{opacity:0}
+}
+
+.title {
+	text-align: center;
+	width: 500px;
+	margin: auto;
+}
+
+.made {
+	width: 500px;
+	margin: auto;
+    position: relative;
+	
+}
+p {
+	animation:right 5s infinite;
+	position: absolute;
+}
+
+@keyframes right {
+	0% {right:-200px;opacity:0}
+	25% {right:20px;opacity:1}
+	/*75% {right:200px;opacity:1}*/
+	100% {right:400px;opacity:0}
+}

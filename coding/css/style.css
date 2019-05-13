@@ -1,0 +1,73 @@
+/*.container {
+	text-align: center;
+	margin: auto;
+	}*/
+
+	.main {
+		position: relative;
+		color: white;
+	}
+
+	.coding {
+		z-index: 10;
+		position: absolute;
+		overflow: hidden;
+	}
+	.coding p {
+		
+		color: white;
+		background-color: orange;
+		animation: top 1s ease infinite;
+		margin: 0px;
+	}
+
+	.learning {
+		z-index: 5;
+		position: absolute;
+		overflow: hidden;
+	}
+
+	.learning p {
+		background-color: brown;
+		animation: bottom 1s ease infinite;
+		animation-delay: 2s;
+		margin: 0px;
+	}
+
+	.teaching {
+		z-index: 1;
+		position: absolute;
+	}
+
+	.teaching p {
+		background-color: purple;
+		animation: opacity 1s ease infinite;
+		animation-delay: 3s;
+		margin: 0px;
+	}
+
+	.bottom {
+		margin-top: 20px;
+	}
+
+	@keyframes top {
+
+		0%, 100% {transform: translateY(-50px);} 
+		50%	{transform: translateY(0px);} 
+		
+	}
+
+	@keyframes bottom {
+
+		0%, 100% {transform: translateY(0px);} 
+		50%	{transform: translateY(50px);}  
+	}
+
+	@keyframes opacity {
+
+		0%, 100% {opacity: 0;} 
+		50%	{opacity: 1;} 
+	}
+
+
+
