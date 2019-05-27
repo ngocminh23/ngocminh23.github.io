@@ -1,0 +1,70 @@
+.container {
+	display: grid;
+	grid-template-columns: 33.33% 33.33% 33.33%;
+	grid-gap: 20px;
+}
+
+.img {
+	overflow: hidden;
+	position: relative;
+}
+
+.img:hover img {	
+	transform: scale(1.1);
+}
+
+.img img {
+	transition-duration: 1s;
+	width: 100%;
+	display: block;
+}
+
+h1, h2 {
+	text-align: center;
+}
+
+h2{
+	cursor: pointer;
+}
+#page {
+	padding: 20px 100px;
+}
+
+.image:hover {
+	box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.glow-wrap{
+	overflow: hidden;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	margin-top: -10px;
+}
+
+.glow{
+	display: block;
+	position:absolute;
+	width: 50%;
+	height: 600%;
+	background: rgba(255,255,255,.2);
+	top: 0;
+	filter: blur(5px);
+	transform: rotate(45deg) translate(-450%, 0);
+	transition: all .5s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.img:hover .glow{
+	transform: rotate(45deg) translate(600%, 0);
+	transition: all 1s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.img:hover img,
+.img:hover .glow-wrap{
+	margin-top: 0;
+}
+
+a {
+	text-decoration: none;
+}

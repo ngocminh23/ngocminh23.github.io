@@ -1,0 +1,50 @@
+/*aside {
+	width: 48%;
+	float: left;
+	padding: 10px;
+}
+
+article {
+	width: 48%;
+	float: left;
+	padding: 10px;
+}*/
+
+h1, h2 {
+	text-align: center;
+}
+
+h2{
+	    border-bottom: 2px solid yellow;
+    height: 58px;
+    width: 200px;
+    margin: auto;
+    font-size: 36px;
+}
+#page {
+	padding: 20px 100px;
+}
+
+img {
+	width: 100%;
+
+}
+
+.snip1325 {
+  position: relative;
+  overflow: hidden;
+  margin: 10px;
+  height: 500px;
+  width: 100%;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+}
+.snip1325 img {
+  position: absolute;
+  right: 0;
+  -webkit-transition: all 2s ease-out;
+  transition: all 2s ease-out;
+}
+.snip1325:hover img,
+.snip1325.hover img {
+  
+}

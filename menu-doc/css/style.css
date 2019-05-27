@@ -52,7 +52,7 @@ ul li:hover a {
 	
 }
 
-ul li:hover::after {
+ul li.muiten:hover::after {
 	color: #1a9cb7;
 	float: right;
 	font-family: 'FontAwesome';

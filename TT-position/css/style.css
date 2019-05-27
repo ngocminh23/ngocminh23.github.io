@@ -2,6 +2,7 @@
 	background: rgb(254, 226, 215);
 	width: 80%;
 	margin: auto;
+	position: relative;
 }
 
 #topheader {
@@ -12,12 +13,12 @@
 
 #nav {
 	position: absolute;
-	float: left;
+	
 }
 
 #banner {
-	float: right;
-	width: 75%;
+	/*width: 75%;*/
+	margin-left: 290px
 }
 
 #banner img {
@@ -63,7 +64,7 @@ ul li:hover::after {
 }
 
 
-@media only screen and (max-width: 1400px) {
+/*@media only screen and (max-width: 1400px) {
 	#banner {
 		width: 72%;
 	}
@@ -79,4 +80,4 @@ ul li:hover::after {
 	#banner {
 		width: 68%;
 	}
-}
+}*/
