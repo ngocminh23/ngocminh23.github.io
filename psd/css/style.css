@@ -1,0 +1,144 @@
+a {
+    font-family: playfair display;
+}
+
+.logo {
+    font-family: inconsolata;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-family: playfair display;
+    color: #626262;
+    margin: 20px 0;
+    font-size: 30px;
+}
+
+h5 {
+    font-family: ubuntu;
+    text-transform: uppercase;
+    color: #626262;
+    width: 100%;
+    font-size: 14px;
+}
+
+@font-face {
+    font-family: ubuntu;
+    src: url("fonts/Ubuntu-Light.ttf");
+}
+
+p {
+    color: #626262;
+    font-family: playfair display;
+    font-size: 14px;
+}
+
+#page {
+    padding: 25px;
+}
+
+.slideshow img {
+    width: 100%;
+}
+
+.noidung1, .noidung2 {
+    margin: 30px 0;
+}
+
+.noidung1 .row, .noidung2 .row {
+    margin: 0 40px 40px;
+}
+
+.noidung2 img {
+    width: 100%
+}
+
+.noidung2 .image {
+    margin-bottom: 20px;
+}
+
+.noidung2 .row > div:last-child {
+    padding-right: 0;
+}
+.noidung2 .row > div:first-child {
+    padding-left: 0;
+}
+
+.noidung3 {
+    background-color: #f0f0f0;
+    height: 300px;
+}
+
+@media only screen and (max-width: 500px)  {
+    .noidung1 .row, .noidung2 .row {
+        margin: 0 0 40px;
+    }
+}
+
+.email {
+    width: 400px;
+    margin: auto;
+    margin-top: 75px;
+}
+
+.form-inline {
+    border-bottom: 1px solid;
+    padding: 5px 0;
+}
+
+.search {
+    border: none;
+    background-color: #f0f0f0;
+    width: 83%;
+}
+
+input:focus {
+    outline: 0;
+}
+
+.search-cl {
+    width: 17%;
+    background-color: #f0f0f0;
+    border: none;
+    padding: 0;
+}
+
+.search-cl img {
+    float: right;
+}
+
+.load {
+    width: 120px;
+    height: 50px;
+    border: 1px solid;
+    text-align: center;
+    margin: auto;
+}
+
+.load p {
+    margin-top: 13px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #f0f0f0;
+    margin-top: 50px;
+}
+
+.footer {
+    display: flex;
+}
+
+.footer-left {
+    display: flex;
+    justify-content: start;
+}
+
+.footer-right {
+    display: flex;
+    justify-content: flex-end;
+}
+  
+.footer-right p, .footer-left p {
+    margin:24px 10px;
+}

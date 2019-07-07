@@ -1,0 +1,179 @@
+%!Adobe-FontList 1.19
+%Locale:0x409
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Ubuntu-Bold
+FamilyName:Ubuntu
+StyleName:Bold
+FullName:Ubuntu Bold
+MenuName:Ubuntu
+StyleBits:2
+WritingScript:Roman
+OutlineFileName:D:\học web\code github\ngocminh23.github.io\psd\Font\Ubuntu-Bold.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:269316
+FileModTime:1292346000
+WeightClass:700
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,Ubuntu
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Ubuntu-BoldItalic
+FamilyName:Ubuntu
+StyleName:Bold Italic
+FullName:Ubuntu Bold Italic
+MenuName:Ubuntu
+StyleBits:3
+WritingScript:Roman
+OutlineFileName:D:\học web\code github\ngocminh23.github.io\psd\Font\Ubuntu-BoldItalic.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:282432
+FileModTime:1292346000
+WeightClass:700
+WidthClass:5
+AngleClass:1
+NameArray:0,Win,1,Ubuntu
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Ubuntu-Italic
+FamilyName:Ubuntu
+StyleName:Italic
+FullName:Ubuntu Italic
+MenuName:Ubuntu
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:D:\học web\code github\ngocminh23.github.io\psd\Font\Ubuntu-Italic.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:326024
+FileModTime:1292346000
+WeightClass:400
+WidthClass:5
+AngleClass:1
+NameArray:0,Win,1,Ubuntu
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Ubuntu-Light
+FamilyName:Ubuntu Light
+StyleName:Regular
+FullName:Ubuntu Light
+MenuName:Ubuntu Light
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:D:\học web\code github\ngocminh23.github.io\psd\Font\Ubuntu-Light.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:361312
+FileModTime:1292346000
+WeightClass:300
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,Ubuntu Light
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Ubuntu-LightItalic
+FamilyName:Ubuntu Light
+StyleName:Italic
+FullName:Ubuntu Light Italic
+MenuName:Ubuntu Light
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:D:\học web\code github\ngocminh23.github.io\psd\Font\Ubuntu-LightItalic.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:349160
+FileModTime:1292346000
+WeightClass:300
+WidthClass:5
+AngleClass:1
+NameArray:0,Win,1,Ubuntu Light
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Ubuntu-Medium
+FamilyName:Ubuntu Medium
+StyleName:Regular
+FullName:Ubuntu Medium
+MenuName:Ubuntu Medium
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:D:\học web\code github\ngocminh23.github.io\psd\Font\Ubuntu-Medium.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:284056
+FileModTime:1292346000
+WeightClass:500
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,Ubuntu Medium
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Ubuntu-MediumItalic
+FamilyName:Ubuntu Medium
+StyleName:Italic
+FullName:Ubuntu Medium Italic
+MenuName:Ubuntu Medium
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:D:\học web\code github\ngocminh23.github.io\psd\Font\Ubuntu-MediumItalic.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:308368
+FileModTime:1292346000
+WeightClass:500
+WidthClass:5
+AngleClass:1
+NameArray:0,Win,1,Ubuntu Medium
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Ubuntu-Regular
+FamilyName:Ubuntu
+StyleName:Regular
+FullName:Ubuntu Regular
+MenuName:Ubuntu
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:D:\học web\code github\ngocminh23.github.io\psd\Font\Ubuntu-Regular.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:298660
+FileModTime:1292346000
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,Ubuntu
+%EndFont
+
