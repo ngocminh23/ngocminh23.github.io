@@ -15,6 +15,7 @@ a:hover {
 .top-header {
     margin-top: 30px;
     margin-bottom: 60px;
+    flex-wrap: wrap;
 }
 
 .top-header a {
@@ -28,7 +29,7 @@ a:hover {
 
 .bot-header {
     margin-bottom: 60px;
-    flex-wrap: wrap
+    flex-wrap: wrap;
 }
 
 .bot-header>div:first-child {
@@ -54,6 +55,14 @@ p.price {
 @media only screen and (max-width: 767px) {
     .bot-header .range-inputs {
         margin-top: 40px;
+    }
+
+    .bot-header>div:first-child {
+        padding: 0px;
+    }
+    
+    .bot-header>div:last-child {
+        padding: 0px;
     }
 }
 
