@@ -240,6 +240,7 @@ footer .menu-footer li {
     line-height: 28px;
     padding: 10px;
     width: 32%;
+    position: relative;
     margin-right: 15px;
 }
 
@@ -281,7 +282,7 @@ footer .menu-footer li {
     box-sizing: border-box;
     box-shadow: 0px 2px 4px rgba(44, 46, 48, 0.0504982);
     border-radius: 5px;
-    padding: 20px 0;
+    padding: 40px 0;
     transition-duration: 0.5s;
     margin-bottom: 20px;
 }
@@ -312,7 +313,7 @@ footer .menu-footer li {
     width: 60%;
     margin: auto;
     font-size: 16px;
-    padding: 10px;
+    padding: 30px 10px;
 }
 
 .cent-bot .tab-top .cent-content a {
@@ -326,4 +327,97 @@ footer .menu-footer li {
 
 .p-20 {
     padding: 20px 30px;
+}
+
+footer li {
+    list-style-type: none;
+}
+
+footer li a {
+    color: #000;
+}
+
+footer li a:hover {
+    text-decoration: none;
+}
+
+.m-20 {
+    margin: 20px 0px;
+}
+
+/* .test {
+    position: absolute;
+    bottom: 10px;
+} */
+
+.cm-bot p {
+    height: 168px;
+    overflow: hidden;
+}
+
+.check-test p {
+    margin: auto;
+   
+}
+
+.check-test p i {
+    margin-left: 10px;
+}
+
+.check-test p a:hover {
+    text-decoration: none;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #2F5BEA;
+}
+
+.navbar-light .navbar-nav .show>.nav-link {
+    color: #2F5BEA;
+}
+
+.navbar-light .navbar-brand:hover {
+    color: #fff;
+}
+
+.for-free {
+    background-image: url(../img/Group2.jpg)
+}
+
+.for-free h2, .for-free p, .for-free h3 {
+    color: #fff;
+    margin: auto;
+}
+
+.for-free .row {
+    padding: 50px 0;
+}
+
+.for-free p {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.for-free h3 {
+    background: #FFFFFF;
+    border: 1px solid #C9CDD5;
+    box-sizing: border-box;
+    border-radius: 5px;
+    text-transform: uppercase;
+    width: 200px;
+    margin: auto;
+    font-size: 16px;
+    padding: 15px 0;
+    color: #007bff;
+    text-align: center;
+}
+
+.for-free h3:hover {
+    color: #000;
+    border: 1px solid #000;
+}
+
+footer img {
+    float: right;
 }

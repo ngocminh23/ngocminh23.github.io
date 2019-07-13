@@ -1,0 +1,117 @@
+.top-menu {
+    background-color: #2A41E8;
+    padding-top: 15px;
+}
+
+.top-menu i {
+    color: rgba(255, 255, 255, 0.3);
+    font-size: 18px;
+    line-height: 21px;
+    margin-right: 10px;
+}
+
+.top-menu p, .top-menu a {
+    color: #fff;
+    font-size: 16px;
+    line-height: 18px;
+}
+
+p, h1, h2, h3, h4, h5, a {
+    font-family: 'Rubik', sans-serif;
+}
+
+.top-menu .addrest .d-flex {
+    margin-right: 20px;
+}
+
+.top-menu .search i {
+    color: #fff;
+}
+
+header {
+    background-image: url('../img/hero-bg-image.jpg');
+    height: 663px;
+}
+
+.title {
+    margin-top: 50px;
+    width: 100%;
+    text-align: center;
+}
+
+#page {
+    background-color: #FAFAFA
+}
+
+.property-card {
+    background: #FFFFFF;
+    border-radius: 4px;
+}
+
+.top-card {
+    position: relative;
+}
+
+.top-card .type {
+    background: #2A42E8;
+    border-radius: 4px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    padding: 3px 10px;
+    color: #fff;
+}
+
+.top-card .statut {
+    background: #FF5E15;
+    border-radius: 4px;
+    position: absolute;
+    top: 10px;
+    left: 90px;
+    padding: 3px 10px;
+    color: #fff;
+}
+
+.top-card .price {
+    background: #fff;
+    border-radius: 4px;
+    position: absolute;
+    bottom: 0;
+    left: 10px;
+    padding: 3px 10px;
+    color: #2A42E8;
+}
+
+.bot-card {
+    padding: 20px;
+}
+
+.bot-card .addrest-c i {
+    margin-right: 5px;
+}
+
+.bot-card .addrest-c p {
+    line-height: 18px;
+}
+
+.bot-card .name-c {
+    font-size: 16px;
+    font-weight: 600;
+    color: #1D1D1D;
+}
+
+.bot-card .date div {
+    width: 50%;
+}
+
+.bot-card .date img {
+    border-radius: 50px;
+    margin-right: 10px;
+    width: 22px;
+    height: 22px;
+}
+
+.bot-card .date i {
+    margin-right: 10px;
+    line-height: 21px;
+}
