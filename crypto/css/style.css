@@ -31,8 +31,12 @@ a:hover {
     flex-wrap: wrap
 }
 
-.bot-header>div {
-    padding: 0 40px;
+.bot-header>div:first-child {
+    padding-right: 40px;
+}
+
+.bot-header>div:last-child {
+    padding-left: 40px;
 }
 
 p.price {
